@@ -1,0 +1,19 @@
+.visible-tablet {
+    display: none;
+}
+
+@media screen and (max-width: 480px) {
+    .hidden-mobile {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .hidden-tablet {
+        display: none;
+    }
+
+    .visible-tablet {
+        display: inherit;
+    }
+}
